@@ -1,0 +1,22 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .pz-header,
+  .pz-footer {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .pz-header {
+    border-bottom: 1px solid #ececec;
+  }
+  .pz-footer {
+    border-top: 1px solid #ececec;
+  }
+  .main {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+  }
+} 
